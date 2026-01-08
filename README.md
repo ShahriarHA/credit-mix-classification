@@ -4,20 +4,20 @@
 Credit Mix Classification is an end-to-end machine learning project that predicts a customer’s **Credit Mix category** — **Good**, **Standard**, or **Bad** — using structured financial and behavioral data.
 The project covers the complete ML lifecycle, including data cleaning, exploratory data analysis (EDA), feature engineering, outlier handling, model-specific preprocessing pipelines, and comparative evaluation of multiple ensemble models.
 
-## 🗂️ Project Structure
-├── CSV_Files/
-│ ├── Raw and cleaned datasets used for modeling
-│
-├── images/
-│ ├── EDA plots, barplots, confusion matrices and so on.
-│
-├── EDA_report.html
-│ ├── Automated profiling report (ydata-profiling)
-│
-├── Predicting Customer Credit Mix - End-to-End.ipynb
-│ ├── Main notebook containing the full ML workflow
-│
-├── README.md
+## 🗂️ Project Structure<br>
+├── CSV_Files/<br>
+│ ├── Raw and cleaned datasets used for modeling<br>
+│<br>
+├── images/<br>
+│ ├── EDA plots, barplots, confusion matrices and so on.<br>
+│<br>
+├── EDA_report.html<br>
+│ ├── Automated profiling report (ydata-profiling)<br>
+│<br>
+├── Predicting Customer Credit Mix - End-to-End.ipynb<br>
+│ ├── Main notebook containing the full ML workflow<br>
+│<br>
+├── README.md<br>
 │ ├── Project documentation
 
 ## 📁 Cleaned Dataset Description
@@ -70,13 +70,12 @@ Models were evaluated using multiple performance metrics:
 - Confusion Matrix
 
 ### 📊 Performance Summary (Test Set)
-|------------------------------------------------|
+
 | Model         | Accuracy | F1-Score | ROC-AUC  |
 |---------------|----------|----------|----------|
 | Random Forest | 0.966933 | 0.966884 | 0.997442 |
 | XGBoost       | 0.970933 | 0.970923 | 0.998082 |
 | LightGBM      | 0.964933 | 0.964884 | 0.997703 |
-|------------------------------------------------|
 
 ## 🧠 Key Insights
 - Gradient boosting models slightly outperformed Random Forest.
